@@ -5,14 +5,14 @@ This is my personal portfolio website that I created to showcase my projects, sk
 
 🚀 Features<br>
 - Responsive Design<br>
--Project Showcase<br>
--Skills Section<br>
--Contact Section<br>
--Modern UI Design<br>
+- Project Showcase<br>
+- Skills Section<br>
+- Contact Section<br>
+- Modern UI Design<br>
 🛠️ Technologies Used<br>
--HTML<br>
--CSS<br>
--JavaScript<br>
+- HTML<br>
+- CSS<br>
+- JavaScript<br>
 🔗 Live Demo<br>
 
 
