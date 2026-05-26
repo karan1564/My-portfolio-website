@@ -1,0 +1,935 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.log{
+    padding-left: 6%;
+   
+}
+body{
+    background-color: #F0EEEF;
+}
+.full-nav{
+    background-color: #FBFBFB  ;
+    opacity: 0.9;
+
+    
+}
+.top-nav{
+
+padding-left: 5%;
+
+}
+.nav-item {
+    padding-left: 15%;
+    font-size: 1.2rem;
+    font-weight: 650;
+      font-family: monospace;
+   
+}
+.icon i:hover{
+      border-bottom: 4px solid rgb(232, 66, 66);
+    transition: ease-in 0.2s;
+    cursor: pointer;
+   
+}
+
+
+
+.nav-item a:hover{
+    border-bottom: 4px solid rgb(232, 66, 66);
+    transition: ease-in 0.2s;
+   
+}
+.icon{
+    gap: 60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+/* hero */
+.hero{
+background-color:#F0EEEF;
+
+
+
+    height: 90vh;
+    margin-top: 6%;
+    
+}
+.herotext{
+position: absolute;
+bottom:30%;
+left: 10%;
+ 
+}
+.herotext h1{
+    font-size: 3rem;
+    font-weight: 600;
+      font-family: monospace;
+}
+
+.heroimg{
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+    
+}
+.heroimg img{
+    height: 90vh;
+    width: 100%;
+    
+  
+    
+}
+
+.btn{
+    background-color: #e8363c;
+    color:white;
+    
+    margin-top: 2%;
+
+}
+/* herodown */
+.paymenthero{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 30vh;
+    color: white;
+    text-align: center;
+   
+}
+
+.cardshero i{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.cardshero h1{
+    font-size: 1.2rem;
+   font-family: monospace;
+   font-weight: 900;
+    
+}
+.cardshero h6{
+    font-size: 0.5rem;
+}
+
+
+
+/* ne */
+
+.new{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    
+}
+.cardro{
+    margin-top: 2%;
+}
+
+.new1{
+    color: #687279;
+    margin-top: 4%;
+    margin-left: 3%;
+
+}
+
+.view{
+
+background-color: #e8363c;
+color: #FBFBFB;
+width: 8%;
+height: 40px;
+position: absolute;
+right:3%;
+margin-top: 4%;
+
+
+
+
+}
+.checkout{
+    height:100%;
+
+position: relative;
+background-color: #1a1818;
+padding-bottom: 2%;
+margin-top: 4%;
+opacity: 0.9;
+border-radius: 50px;
+border-bottom-left-radius: 0;
+
+border-bottom-right-radius: 0;
+
+
+}
+
+.checktext{
+position: absolute;
+
+top: 10%;
+width:400px;
+text-align: center;
+color: white;
+
+
+
+}
+.cardrow{
+   
+    padding-top: 13%;
+   
+
+
+
+
+    
+}
+.sale{
+    color: #f34349;
+    font-weight: 700;
+}
+.footer{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #eff7fc;
+}
+.foot{
+      display: flex;
+justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+}
+
+
+.foot ul li{
+    list-style-type: none;
+    
+}
+.warrr{
+    position: absolute;
+    text-decoration: none;
+color: #1a1818;
+bottom: 3%;
+font-size: 1.5rem;
+}
+.updater{
+    height: 33px;
+    
+}
+
+
+/* procuct css */
+
+.prbody{
+    margin: 0;
+    padding: 0;
+}
+.breadcrumbs{
+    position: absolute;
+    top: 23%;
+}
+.p-h1{
+    margin-top: 4%;
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bolder;
+}
+.texty li{
+   font-size: 1.3rem;
+
+}
+
+
+
+.product-head{
+    height: 30vh;
+    width: 100vw;
+
+margin-top: 8%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+
+
+
+
+}
+.mainpro{
+    background-color: white;
+    height: max-content;
+    padding-top: 5%;
+   
+overflow: hidden;
+    width: 100vw;
+    
+
+}
+
+.mainprot{
+    background-color: white;
+    height: max-content;
+    padding-top: 3%;
+    padding-right: 1.5%;
+    
+overflow: hidden;
+    width: 100vw;
+    
+
+}
+.paginatonpro{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  overflow: hidden;
+}
+.formss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.logy{
+    text-align: center;
+}
+.logy h1{
+    margin-bottom: 12%;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 2.5rem;
+    color: #e8363c;
+
+}
+.buttonform{
+display: flex;
+justify-content: space-between;
+
+}
+.form-label{
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+
+/* search */
+.searchy{
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #353131 ;
+
+
+    
+opacity: 0.9;
+
+}
+.searchy form input{
+    width: 280px;
+    border-radius: 20px;
+    height: 60px;
+    font-size: 1.3rem;
+     margin-top: 2%;
+     
+    
+}
+.searchy form button{
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+ 
+}
+
+
+/* productopen */
+
+
+.productopimg{
+    margin-left: 8%;
+}
+.productopimg img:hover{
+      transform: scale(1.1);
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+
+.productopen{
+
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+   
+}
+
+.buttonmake{
+    display: flex;
+    width:150px;
+    height: 40px;
+    background-color:white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    gap: 25px;
+    border: #e8363c 1px solid ;
+    padding-top: 5px;
+  
+}
+.probuttons{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+ 
+   
+}
+
+
+
+
+
+.probuttons button{
+    margin-bottom: 2%;
+}
+.propara{
+    margin-top: 2%;
+    margin-bottom: 5%;
+ 
+}
+.decre{
+
+    cursor: pointer;
+   
+}
+.incre{
+
+cursor: pointer;
+
+
+}
+
+.carthero{
+
+
+
+height: 80vh;
+width: 100vw;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+.noticart{
+    display: flex;
+height: 60px;
+    gap: 50px;
+    align-items: center;
+    padding:20px;
+    width: 90vw;
+    background-color: #eaedf2;
+    font-size: 1.5rem;
+    border:2px solid #798086;
+  
+}
+.noticart h6{
+    font-size: 1.5rem;
+}
+.subtotal h6{
+
+  font-size: 1rem;
+  font-weight:400;
+}
+
+
+
+
+
+
+.deletebutton i{
+    cursor: pointer;
+}
+
+
+
+
+.headingcart  {
+padding-bottom: 2%;
+padding-left: 8%;
+
+}
+.headingcart h1{
+border-bottom: #e8363c 4px solid ;
+border-radius: 5px;
+width:max-content;
+
+}
+
+
+
+
+
+.allinone{
+position:absolute;
+left: 5%;
+
+display: flex;
+flex-direction: column;
+top: 25%;
+margin-bottom: 15%;
+height: max-content;
+width: max-content;
+
+
+
+
+
+
+}
+.pil{
+    display: flex;
+  
+    
+
+}
+.imgprctotal{
+    height: 90px;
+    width: 120px;
+}
+.imgprctotal img{
+    height: 65px;
+    width: 100px;
+   
+}
+.til{
+    display: flex;
+    gap: 175px;
+    align-items: center;
+    
+   justify-content: center;
+
+ 
+ 
+}
+.pricebtw{
+    display: flex;
+    flex-direction: column;
+position: relative;
+justify-content: center;
+align-items: center;
+
+padding-right: 2%;
+padding-left: 2%;
+   
+  
+}
+.trex{
+    display: flex;
+    gap: 80px;
+
+}
+.quantitymainpr{
+  
+   display: flex;
+   gap: 80px;
+ 
+   
+}
+.maintwos{
+    padding-left: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.inkuss{
+    height: 50px;
+}
+.divline{
+    height: 3px;
+    width:100%;
+    background-color: #93a0a9;
+
+    bottom: 0px;
+    left: 0px;
+    margin-top: 20px;
+  margin-bottom: 30px;
+    
+}
+.cartbut{
+    padding-left: 6%;
+}
+
+
+
+.carttotals{
+position:absolute;
+right:5%;
+top: 30%;
+width: 28vw;
+height: 400px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content:space-evenly;
+border: 0.5px solid black;
+padding: 5px;
+
+}
+.subtotalmain{
+    
+display: flex;
+align-items: center;
+gap: 250px;
+}
+.totalmain{
+    display: flex;
+    align-items: center;
+
+gap: 250px;
+
+    
+
+
+}
+.procetoc{
+    position: relative;
+    gap: 10px;
+    display: flex
+}
+.subtotalmain h4{
+    font-size: 1.2rem;
+}
+.totalmain h4{
+    font-size: 1.2rem;
+}
+.subtotalmain h5{
+    font-size: 1rem;
+}
+.totalmain h5{
+    font-size: 1rem;
+}
+
+
+.mainbox{
+
+
+width: 100vw;
+height: 100vh;
+gap: 30px;
+
+
+}
+.topheading i{
+font-size: 3rem;
+
+}
+.topheading h3{
+font-size: 2rem;
+font-family: monospace;
+
+}
+.topheading{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.boxfirst{
+    background-color: black;
+    color: #eaedf2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding:30px;
+
+}
+.boxsecond{
+    background-color:black;
+}
+.secondheading p{
+    font-size: 1.3rem;
+
+}
+.secondheading{
+    text-align: center;
+}
+.boxfirst:hover{
+    background-color: #e8363c;
+}
+.secondbox{
+    background-color: yellow;
+}
+
+.secondy img{
+width: 600px;
+height: 75vh;
+border: 2px solid #e8363c;
+
+}
+.secondys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.secondys p{
+    font-size: 1.2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.butonview{
+    display: flex;
+    justify-content: flex-start;
+  
+    width: 100%;
+    
+}
+.secondys .head{
+
+color: #e8363c;
+
+}
+.topheads{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 100%;
+gap: 50px;
+
+}
+.secondrow{
+   
+    margin-top: 100px;
+
+    padding: 20px;
+    gap: 40px;
+}
+.secondy img:hover{
+transform: scale(1.1);
+
+}
+
+
+
+
+.paras p{
+    font-size: 1.3rem;
+}
+.paras{
+    display: flex;
+    gap: 40px;
+}
+.secondbg{
+    background-color: #1a1818;
+text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+   
+}
+.imgabou{
+    border: 2px solid #e8363c;
+}
+
+.imgabou img{
+    height: 100%;
+    width: 100%;
+
+
+}
+.secondbg h1{
+    color: #eaedf2;
+    font-weight: 700;
+    font-family: monospace;
+
+}
+.paras p{
+    color: #eaedf2;
+}
+.imgabou img:hover{
+   transform: scale(1.1);
+
+}
+.secondaboutmainrow{
+
+
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    gap:70px;
+    text-align: center;
+   
+ 
+}
+.real{
+    height: 80%;
+ 
+}
+.secondaboutmainrow h1{
+ 
+    color: #060606;
+    font-weight: 900;
+font-family: monospace;
+margin-top: 40px;
+
+}
+.real h3{
+font-family: monospace;
+margin-top: 20px;
+
+}
+.real h4{
+color: #e8363c;
+}
+.aboutlastsec{
+   
+   
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.firstlast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    background-color:rgb(250, 245, 245);
+          border-top: 2px solid #e8363c;
+        border-bottom: 2px solid #e8363c;
+
+}
+.firstlast p{
+    font-size: 1.2rem;
+}
+.firstlast h1{
+  font-weight: 800;
+}
+.buttonaboutlast{
+    height: 60px;
+    width: 200px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.firstlasttwo{
+       background-color:rgb(250, 245, 245); 
+       border-top: 2px solid #e8363c;
+        border-bottom: 2px solid #e8363c;
+}
+.aboutlastrow{
+    height: max-content;
+    background-color: #eff7fc;
+    margin-top: 50px;
+    
+}
+.foottaboutlast{
+    height: max-content;
+}
+
+
+
+.contactusform{
+
+display: flex;
+flex-direction: column;
+gap: 50px;
+justify-content: flex-start;
+padding-left: 20px;
+padding-top: 10px;
+
+
+
+
+}
+.contactinp input{
+    width: 550px;
+    height: 50px;
+}
+.conttexty textarea{
+    width: 550px;
+    height: 100px;
+}
+.contactusform button{
+    width: 200px;
+    height: 45px;
+}
+.contactusimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactmaincol{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+}
+.contactusform h1{
+    font-size: 3.2rem;
+    font-weight: 650;
+}
+.contactrow .col-lg-5 img{
+
+  
+    background-color: #e8363c;
+ 
+}
+.contactrow{
+margin-top: 100px;    
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 50px;
+
+  
+
+}
+.maincontaincontact{
+   display: flex;
+  
+ 
+   
+  
+}
+.downcont{
+    height: 50px;
+   
+}
