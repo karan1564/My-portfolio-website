@@ -9,6 +9,7 @@ This is my personal portfolio website that I created to showcase my projects, sk
 - Skills Section<br>
 - Contact Section<br>
 - Modern UI Design<br>
+
 🛠️Technologies Used<br>
 - HTML<br>
 - CSS<br>
