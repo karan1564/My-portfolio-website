@@ -4,7 +4,7 @@
 This is my personal portfolio website that I created to showcase my projects, skills, and development journey. The website highlights my work, technical skills, and information about me in a clean and responsive design.
 
 🚀 Features<br>
--Responsive Design<br>
+- Responsive Design<br>
 -Project Showcase<br>
 -Skills Section<br>
 -Contact Section<br>
