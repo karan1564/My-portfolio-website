@@ -3,20 +3,20 @@
 
 This is my personal portfolio website that I created to showcase my projects, skills, and development journey. The website highlights my work, technical skills, and information about me in a clean and responsive design.
 
-🚀 Features
-Responsive Design
-Project Showcase
-Skills Section
-Contact Section
-Modern UI Design
-🛠️ Technologies Used
-HTML
-CSS
-JavaScript
-🔗 Live Demo
+🚀 Features<br>
+Responsive Design<br>
+Project Showcase<br>
+Skills Section<br>
+Contact Section<br>
+Modern UI Design<br>
+🛠️ Technologies Used<br>
+HTML<br>
+CSS<br>
+JavaScript<br>
+🔗 Live Demo<br>
 
 
 📬 Contact
-Email: ks68521raja@gmail.com
+Email: ks68521raja@gmail.com<br>
 
 ⭐ Thank you for visiting my portfolio repository!
