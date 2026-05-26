@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+  
+  
+}
+#hero{
+    height: 85vh;
+  
+
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+  
+   height: 100px;
+   width: 100vw;
+   justify-content: center;
+   
+    
+    
+}
+.logo p{
+    font-size: 2rem;
+    color: #2563Eb;
+}
+.logo{
+    position: absolute;
+    left: 10%;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+      color: #000000;
+    font-size: 1.5rem;
+
+    gap: 30%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 60%;
+    right: 20%;
+   
+   
+   
+  
+}
+ul a{  
+    text-decoration: none;
+}
+
+
+.text span{
+    font-size: 3rem;
+    color: #000000;
+      
+
+}
+
+.text{
+    position: absolute;
+    bottom: 50%;
+    left: 6%;
+
+}
+.waste{
+    font-size: 2rem;
+    color: #555555;
+      position: absolute;
+      bottom: 35%;
+      left: 6%;
+
+}
+button{
+    position: absolute;
+    bottom: 25%;
+    left: 6%;
+    width: 7%;
+    height: 6%;
+    background-color: #2563Eb;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+    z-index: 99;
+}
+.man img{
+margin-top: 10px;
+    width: 35vw;
+
+   
+mix-blend-mode: multiply;
+background-blend-mode: overlay;
+border-bottom-left-radius: 600px;
+ border-bottom-right-radius:200px;
+filter: saturate(0.8);
+
+
+
+
+  
+}
+.man{
+  
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 10%;
+right: 0;
+bottom: 18%;
+
+width: 50vw;
+height: 100vh;
+
+
+
+
+}
+.kar span{
+       font-size: 3rem;
+    color: #000000;
+    position: absolute;
+        bottom: 60%;
+    left: 6%;
+
+
+}
+
+ul li{
+    cursor: pointer;
+     color: #000000;
+}
+
+ul li:hover{
+    border-bottom: #2563Eb 4px solid ;
+ 
+}
+#about{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    text-align: center;
+    position: relative;
+   
+}
+.lg{
+    position: absolute;
+    top: 5%;
+    left: 42%;
+
+}
+ /* about */
+#about span{
+    color: #000000;
+    font-size: 2.5rem;
+    font-weight: 550;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lg ::after{
+    content: "";
+    height: 15px;
+    width: 20px;
+    background-color: #2563Eb;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 1%;
+   
+
+animation: under 4s ease-in-out 2s infinite ;
+}
+@keyframes under {
+    
+   
+    0%{
+        width: 30%;
+    }
+    50%{width: 50%;
+
+    }
+    100%{
+width: 100%;
+    }
+    }
+   
+    .mane img{
+        height: 32vh;
+        width: 12vw;
+        filter: saturate(0.8);
+        border-radius: 60%;
+
+    }
+    .mane{
+        position: absolute;
+        left: 15%;
+        top:15%
+
+    }
+    .paraone p{
+        font-size: 2rem;
+        color: #555555;
+    }
+     .paratwo p{
+        font-size: 2rem;
+        color: #555555;
+    }
+    .paraone{
+        position: absolute;
+        bottom: 69%;
+        left: 52%;
+
+    }
+    .paratwo{
+        position: absolute;
+        bottom: 59%;
+        left: 50%;
+    }
+    .skills{
+     
+        height: 45vh;
+        width: 20vw;
+        background-color: #555555;
+        position: absolute;
+        bottom: 5%;
+        left: 15%;
+        text-align: center;
+        box-shadow: 2px 4px 4px 4px #3a3939;
+        animation:replac 2s ease-in-out 2s ;
+      
+    }
+    .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 10px;
+    position: relative;
+    }
+    .skills h2{
+        margin-top: 15px;
+    }
+    
+.per{
+    position: absolute;
+    right: 5%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    bottom: 2%;
+
+   
+}
+.skills p{
+    font-size: 1.2rem;
+}
+.education{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 30px;
+ height: 40vh;
+        width: 20vw;
+        background-color: #555555;
+        position: absolute;
+        bottom: 5%;
+        right: 15%;
+        box-shadow: 2px 4px 4px 4px #3a3939;
+        padding: 6px;
+
+animation:replace 2s ease-in-out 2s ;
+}
+.education p{
+    margin-top: 10%;
+    font-size: 1.5rem;
+}
+.line{
+    height: 4px;
+    width:100%;
+    background-color: #2563Eb;
+
+
+    
+}
+@keyframes replace {
+    100%{
+        transform: translateX(-770px);
+    }
+    
+}
+@keyframes replac {
+
+    100%{
+        transform: translateX(770px);
+
+    }
+   
+    
+}
+/* project */
+#project{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+
+}
+.pro span{
+    font-size:3rem;
+    color: #000000;
+    font-weight: 650;
+}
+.pro{
+    margin-left: 44%;
+  position: absolute;
+  margin-top: 2%;
+
+}
+.pro ::after{
+    content: "";
+    display: block;
+    height:15px;
+    width: 100%;
+    background-color:#2563Eb;
+    border-radius: 10px;
+    animation: unde 4s ease-in-out 2s infinite;
+
+}
+@keyframes unde {
+    
+   
+    0%{
+        width: 30%;
+    }
+    50%{width: 50%;
+
+    }
+    100%{
+width: 100%;
+
+    }
+    }
+   /* slo */
+   .sl{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .frame{
+    height: 60vh;
+    width: 42vw;
+   overflow: hidden;
+
+
+}
+
+.slider img{
+    height: 100%;
+    width: 100%;
+
+}
+.slider{
+display: flex;
+background-size: cover;
+height: 100%;
+    width: 100%;
+    transition: all 1s ease;
+    
+
+}
+#left{
+    font-size: 60px;
+    color: #000000;
+
+
+}
+#right{
+    font-size: 60px;
+       color: #000000;
+
+}
+.bottom{
+  height: 60px;
+ 
+  width: 100vw;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+.bottom span{
+    color: #000000;
+    font-size: 2rem;
+
+
+    
+}
+
+.bottom a{
+    text-decoration: none;
+}
+.bottom span{
+   
+    border-bottom: 7px solid #2563Eb;
+    border-radius: 2px;
+    color: #555555;
+    
+    
+}
+#contactus{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.section{position: absolute;
+    bottom: 25%;
+    left: 34%;
+    top: 20%;
+}
+.section form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section form input{
+    width: 35vw;
+    height: 6vh;
+    border-radius: 20PX;
+    font-size: 1.1rem;
+    text-align: center;
+     color: #555555;
+    
+
+
+}
+.section form input::placeholder{
+    color: #555555;
+    
+    font-size: 0.9rem;
+}
+.section form textarea{
+    
+       width: 35vw;
+       font-size: 1rem;
+         color: #555555;
+}
+.section form input:hover{
+    border: 2px solid #2563Eb;
+    
+
+}
+
+.sb{
+  position: relative;
+  width: 20%;
+  height: 5vh;
+  left: 38%;
+    
+   
+}
+.foot{
+    background-color: #555555;
+    width: 100vw;
+    height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footup{
+    height: 50px;
+    width: 100vw;
+    background-color:#2563Eb ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+ 
+   
+    
+}
+.footup span{
+
+cursor: pointer;
+ color: #ffffff;
+
+}
+.footup a{
+    text-decoration: none;
+}
+
+.foot span{
+    letter-spacing: 3px;
+    font-size: 1.4rem;
+   
+
+  
+    
+}
+

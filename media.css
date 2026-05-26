@@ -1,0 +1,434 @@
+
+@media (max-width:1441px){
+    .frame{
+        width: 35vw;
+    }
+}
+@media (max-width:1208px) {
+   .man img{
+   margin-left: 60%;
+
+
+   }
+   
+   .man{
+    position: absolute;
+right: 10%;
+bottom: 30%;
+   }
+   .kar span{
+    font-size: 2.5rem;
+   }
+   .text span{
+    font-size: 2.5rem;
+   }
+   button{
+    width: 15%;
+}
+.hero{
+    overflow: hidden;
+}
+.nav{
+    overflow: hidden;
+
+}
+#about{
+     overflow: hidden;
+
+}
+.paraone{
+    position: absolute;
+  right: 27%;
+    top: 19%;
+    
+    
+}
+ 
+.paraone p{
+    font-size: 1.1rem;
+}
+.paratwo p{
+    font-size: 1.1rem;
+}
+.paratwo{
+   position: absolute;
+  right: 24%;
+    top: 35%;
+    
+}
+.card p{
+    font-size: 0.7rem;
+}
+.per {
+position: absolute;
+right: 5%;
+
+}
+.skills input{
+  margin-right: 40px ;
+}
+.education p{
+    font-size: 1.3rem;
+
+}
+.lg{
+   position: absolute;
+   top: 1%;
+}
+
+
+
+}
+@media (max-width:911px) {
+
+    ul{
+        position: absolute;
+        left: 20%;
+        gap: 10%;
+        top: 10%;
+    }
+button{
+    width: 20%;
+}
+.logo{
+    position: absolute;
+    top: 1%;
+    left: 43%;
+
+}
+
+    
+}
+@media (max-width:866px) {
+     .frame{
+        width: 48vw;
+    }
+
+  span{
+    font-size: 1.2rem;
+  }
+ .kar span{
+    font-size: 2rem;
+   }
+   .text span{
+    font-size: 2rem;
+   }
+  
+   .education{
+    width: 28vw;
+   }
+    .skills{
+    width: 28vw;
+   }
+   .mane img{
+    width: 20vw;
+
+   }
+   .education p{
+    font-size: 1.2rem;
+
+}
+
+
+
+
+    
+} 
+@media (max-width:656px) {
+   
+
+.kar span{
+    font-size: 1.3rem;
+   }
+   .text span{
+    font-size: 1.3rem;
+   }
+   span{
+    font-size: 1rem;
+   }
+ .man img{
+margin-left: 0;
+padding-right: 0;
+margin-right: 0;
+
+   }
+   .pro span{
+    font-size: 2.5rem;
+   
+   }
+   #left{
+    font-size: 3rem;
+   }
+   #right{
+    font-size: 3rem;
+   }
+   .man{
+    position: absolute;
+    right: 2%;
+   }
+   button{
+    width: 30%;
+   }
+
+.logo{
+    position: absolute;
+    left: 38%;
+}
+
+.lg{
+     position: absolute;
+   top: 1%;
+   left: 10%;
+}
+ .education{
+    width: 32vw;
+   
+   }
+    .skills{
+    width: 32vw;
+  
+   }
+ .mane img{
+    width: 25vw;
+ }
+ .paraone p{
+    font-size: 0.9rem;
+}
+.paratwo p{
+    font-size: 0.9rem;
+}
+
+    
+}
+@media (max-width:450px) {
+     .man img{
+position:absolute;
+top: 6%;
+
+}
+
+.man{
+    position: relative;
+    top:0%;
+    left: 20%;
+
+ 
+}
+.kar span{
+    position: absolute;
+    bottom: 43%;
+    left: 23%;
+}
+.text{
+    position: absolute;
+    bottom: 38%;
+    left: 23%;
+}
+.waste{
+   position: absolute;
+   bottom: 26%;
+   left: 23%;
+}
+#left{
+    font-size: 2.5rem;
+}
+#right{
+    font-size: 2.5rem;
+}
+
+
+.pro span{
+    margin-right: 20%;
+}
+button{
+    position: absolute;
+    bottom: 17%;
+    left: 23%;
+    width: 35%;
+}
+ul{
+    font-size: 1rem;
+}
+.logo{
+    position: absolute;
+    left: 38%;
+}
+   
+
+        
+    
+}
+@media (max-width:349px) {
+.kar span{
+    position: absolute;
+    bottom: 43%;
+    left: 12%;
+}
+.text{
+    position: absolute;
+    bottom: 38%;
+    left: 12%;
+}
+.waste{
+   position: absolute;
+   bottom: 26%;
+   left: 12%;
+}
+button{
+    position: absolute;
+    bottom: 17%;
+    left: 12%;
+    width: 35%;
+}
+.logo{
+    position: absolute;
+    left: 33%;
+}
+
+  
+    
+    }
+    @media (max-width:540px) {
+        .mane{
+            position: absolute;
+            right: 30%;
+            margin-left: 40%;
+        }
+        .paraone{
+             margin-right: 30%;
+             position: absolute;
+             left: 1%;
+        }
+        .paratwo{
+             margin-right: 30%;
+             position: absolute;
+             left: 1%;
+        }
+        .mane img{
+            width: 35vw;
+            height: 25vh;
+        }
+        .skills{
+           
+         
+        }
+        .education{
+            height: 45vh;
+          
+        }
+        .card  input{
+        width:60%;
+        
+          
+        }
+        .education p{
+            font-size: 1rem;
+        }
+        .skills h2{
+            font-size: 1rem;
+        }
+         .education h2{
+            font-size: 1rem;
+            margin-top: 15px;
+        }
+        #about span{
+            font-size: 1.8rem;
+        }
+
+    }
+    @media (max-width:1025px) {
+        .pro{
+            margin-left: 40%;
+           
+        }
+        .frame{
+        width: 50vw;
+        
+        }
+        .sb{
+            position: relative;
+            left: 43%;
+        }
+        
+    }
+     @media (max-width:742px){
+         .frame{
+            height: 36vh;
+            width: 70vw;
+          
+        }
+      
+         .pro{
+            margin-top: 7%;
+               margin-left: 30%;
+           
+        }
+        
+
+     }
+@media (max-width:376px) {
+    .frame{
+        height: 36vh;
+        
+        }
+        .bottom span{
+            font-size: 1.7rem;
+        }
+    
+}
+
+   @media (max-width:769px){
+
+
+.sb{
+            position: relative;
+            left: 40%;
+        }
+        .section{
+            position: absolute;
+            top: 20%;
+            left: 36%;
+        }
+        .footup{
+            position: relative;
+        }
+        .footup span{position: absolute;
+            bottom: 20%;
+            right: 38%;
+            
+       
+        }
+
+   }
+  
+ @media (max-width:426px) {
+    .sb{
+     position: relative;
+     left: 35%;
+     width: 20vw;
+        }
+   .section form input{
+    width: 56vw;
+
+   }
+   .section{
+    position: absolute;
+    left: 24%;
+    top: 20%;
+   }
+   .section form textarea{
+    margin-left: 20%;
+   }
+   #cn{
+    margin-left: 27%;
+   }
+ }
+
+
+
+ @media (max-width:432px) {
+    .sb{
+        width: 15vw;
+       
+    }
+ }
